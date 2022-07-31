@@ -2,7 +2,7 @@ import telebot
 import requests
 import traceback
 
-bot = telebot.TeleBot("1874273085:AAGSGG9QZjaqmIRCSpGLUYWFLAGpftCsGP8")
+bot = telebot.TeleBot("Token bot")
 CODES = (403, 429, 418)
 URL = "https://api1.binance.com"
 
@@ -12,7 +12,6 @@ def start(message):
 	bot.reply_to(message, f"👋👋👋 Welcome {first_name}! 👋👋👋"
 		"\n\nI am PriceCryptosBot🤖, I can show you the prices of cryptocurrencies."
 		"\n\nBinance address for donations:❤️❤️❤️"
-		"\n\n✅TRX TRC20 (TN5V6q9LxMs8R9Yf4zEBwgYDE2iKjGA9Nk)"
 		"\n✅USDT TRC20 (TN5V6q9LxMs8R9Yf4zEBwgYDE2iKjGA9Nk)")
 
 
